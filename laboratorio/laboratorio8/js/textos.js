@@ -1,11 +1,11 @@
-let contenido = document.body.querySelector('input#mensaje');
+let contenido = document.body.querySelector("input#mensaje");
 
 let cargarTexto = document.body.querySelector ("#cargar-texto");
-cargarTexto.addEventListener('click', () => {
+cargarTexto.addEventListener("click", () => {
       contenido.value = "Vengo desde Javascript";
 });
 
 let limpiarTexto = document.body.querySelector('#quitar-texto');
-limpiarTexto.addEventListener('click', () =>{
+limpiarTexto.addEventListener("click", () =>{
        contenido.value = '';
 });
